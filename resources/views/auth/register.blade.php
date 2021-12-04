@@ -14,8 +14,8 @@
                 </div>
                 
                 <div class="form-group">
-                    {!! From::label('email', 'Email') !!}
-                    {!! Form::email('emali', null, ['class' => 'form-control']) !!}
+                    {!! Form::label('email', 'Email') !!}
+                    {!! Form::email('email', null, ['class' => 'form-control']) !!}
                 </div>
                 
                 <div class="form-group">
