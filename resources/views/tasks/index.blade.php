@@ -23,7 +23,9 @@
                 @endforeach
             </tbody>
         </table>
+        {{ $tasks->links() }}
     @endif
     {!! link_to_route('tasks.create', '新規タスクの追加', [], ['class' => 'btn btn-primary']) !!}
+    
 
 @endsection
